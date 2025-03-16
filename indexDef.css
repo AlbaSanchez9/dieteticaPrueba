@@ -13,7 +13,7 @@
     background-color: #e4dbbe;
     width: 100%;
     height: auto;
-    min-height: 250px;
+    min-height: 350px;
     position: relative;
     display: flex;
     align-items: center;
@@ -41,20 +41,28 @@
 
 /* ===================== MEDIA QUERY  400px - 800px  ================================= */
 @media (min-width: 400px) {
-
+    .bannerInicio{
+        min-height: 400px;
+    }
 }
 
 /* ===================== MEDIA QUERY  801px - 1200px  ================================= */
 @media (min-width: 801px) {
-
+    .bannerInicio{
+        min-height: 500px;
+    }
 }
 
 /* ===================== MEDIA QUERY  1201px - 1600px  ================================= */
 @media (min-width: 1201px) {
-
+    .bannerInicio{
+        min-height: 600px;
+    }
 }
 
 /* ===================== MEDIA QUERY  1601px  ================================= */
 @media (min-width: 1601px) {
-
+    .bannerInicio{
+        min-height: 700px;
+    }
 }
