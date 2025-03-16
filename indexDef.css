@@ -12,11 +12,21 @@
 .bannerInicio{
     background-color: #e4dbbe;
     width: 100%;
-    height: 50px;
+    height: auto;
+    min-height: 250px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.doodleInicio{
+    background-image: url(img/doodleInicio.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 /* ===================== MEDIA QUERY  400px - 800px  ================================= */
