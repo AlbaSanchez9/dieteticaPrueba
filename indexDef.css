@@ -16,11 +16,11 @@ main {
 .bannerInicio {
     background-color: #e4dbbe;
     width: 100%;
-    height: 40vh;  
+    height: auto;
+    min-height: 125px;  
     display: flex;
     position: relative;
 }
-
 
 .doodleInicio {
     background-image: url(img/doodleInicio.png);
