@@ -55,7 +55,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     
@@ -63,17 +63,17 @@ body{
 
 .opcionLeche {
     border: 1px solid rgb(77, 76, 76);
-    border-radius: 30px;
+    border-radius: 23px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    margin: 15px;
-    padding: 50px;
-    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
     font-weight: bolder;
     
 }
 
 .opcionLeche img {
-    width: 80px;
+    width: 38px;
     margin-bottom: 20px;
 }
 
