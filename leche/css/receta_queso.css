@@ -77,7 +77,10 @@ body{
     margin-bottom: 10px;
 }
 
-
+.opcionLeche.selected {
+    border-color: #007BFF;
+    box-shadow: 0 2px 10px rgba(17, 87, 152, 0.874);
+}
 
 /* ===================== MEDIA QUERY  400px - 500px  ================================= */
 @media (min-width: 400px) {
@@ -222,6 +225,6 @@ body{
 }
 
 /* ===================== MEDIA QUERY  1601px  ================================= */
-/* @media (min-width: 1601px) {
+@media (min-width: 1601px) {
     
-} */
+}
